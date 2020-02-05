@@ -1,0 +1,13 @@
+{
+    "name": "Mobile Wikipedia on desktop",
+    "version": "1.0",
+    "description": "Automatically redirect wikipedia url to its mobile counter part",
+    "manifest_version": 2,
+    "permissions":[
+        "webNavigation"
+    ],
+    "background":{
+        "scripts":["background.js"],
+        "persistent":true
+    }
+  }
